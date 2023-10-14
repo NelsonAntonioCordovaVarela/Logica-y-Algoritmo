@@ -201,19 +201,19 @@ FinFuncion
 Funcion Algoritmos_Secuenciales_11
 	Escribir " ejercicio #21"
 	
-	Definir aÒo, a1, b2, c3 Como Entero;
-	Escribir " Ingrese un aÒo para verificar si es bisiesto:";
-	Leer aÒo;
-	a1= aÒo%4;
-	b2= aÒo%100;
-	c3= aÒo%400;
+	Definir a√±o, a1, b2, c3 Como Entero;
+	Escribir " Ingrese un a√±o para verificar si es bisiesto:";
+	Leer a√±o;
+	a1= a√±o%4;
+	b2= a√±o%100;
+	c3= a√±o%400;
 	si ( a1=0 ) y ( b2>0 ) Entonces
-		Escribir "Si es un aÒo bisiesto";
+		Escribir "Si es un a√±o bisiesto";
 	SiNo
 		Si ( b2=0 ) y ( c3=0 ) Entonces
-			Escribir "Si es un aÒo bisiesto";
+			Escribir "Si es un a√±o bisiesto";
 		SiNo
-			Escribir "No es un aÒo bisiesto";
+			Escribir "No es un a√±o bisiesto";
 		FinSi
 	FinSi	
 	
@@ -439,7 +439,7 @@ Funcion Algoritmos_Secuenciales_23
 	Escribir "ejercicio #33"
 	
 	Definir a, b, rf Como Real;
-	Escribir "Ingrese cuantos aÒos tiene trabajando para la empresa";
+	Escribir "Ingrese cuantos a√±os tiene trabajando para la empresa";
 	Leer a;
 	b=(450*3)*0.05;
 	rf=450+b;
@@ -447,7 +447,7 @@ Funcion Algoritmos_Secuenciales_23
 		Escribir "Tiene un bono del 5%: ", b, " en total sumado a su salario ", rf ;
 		
 	SiNo
-		Escribir "No tiene bono al trabajar menos de 5 aÒos";
+		Escribir "No tiene bono al trabajar menos de 5 a√±os";
 	FinSi
 	
 FinFuncion
@@ -474,7 +474,7 @@ Funcion Algoritmos_Secuenciales_25
 	Escribir "ejercicio #35"
 	
 	Definir a Como Entero;
-	Escribir "Ingrese el total de compras que realizo mensualmente durante el aÒo";
+	Escribir "Ingrese el total de compras que realizo mensualmente durante el a√±o";
 	Leer a;
 	Si (a>500) Entonces
 		Escribir " Se le aplicara un descuento del 10% en su siguiente compra";
@@ -918,7 +918,7 @@ Funcion parOimpar
 FinFuncion
 
 
-//Funcion con par·metros y return para calcular el ·rea de un rect·ngulo
+//Funcion con par√°metros y return para calcular el √°rea de un rect√°ngulo
 //Algoritmos secuenciales 62
 Funcion q<-arearectangulo(b,a)
 	q=b*a;
@@ -940,14 +940,14 @@ Funcion w<-convcelsiusafahrenheit
 	w=(14*9/5)+32;
 FinFuncion
 
-//Funcion con par·metros para contar un car·cter en una frase
+//Funcion con par√°metros para contar un car√°cter en una frase
 //Algoritmos secuenciales 65
 Funcion e<-contcaracter(asd)
 	e=longitud(asd);
 FinFuncion
 
 
-//FunciÛn sin return para imprimir n˙meros del 1 al 10.
+//Funci√≥n sin return para imprimir n√∫meros del 1 al 10.
 //Algoritmos secuenciales 66
 Funcion impnum10
 	Definir i Como Entero;
@@ -957,7 +957,7 @@ Funcion impnum10
 	Fin Para
 FinFuncion
 
-//FunciÛn con par·metros y return para sumar una lista de n˙meros.
+//Funci√≥n con par√°metros y return para sumar una lista de n√∫meros.
 //Algoritmos secuenciales 67
 Funcion r<-sumalistnum(n1, n2, n3, n4, n5)
 	r=n1+n2+n3+n4+n5;
@@ -995,7 +995,7 @@ FinFuncion
 Algoritmo Algoritmos_Secuenciales
 	//Algoritmos_Secuenciales_1()
 	//Algoritmos_Secuenciales_2()
-    //Algoritmos_Secuenciales_3()
+        //Algoritmos_Secuenciales_3()
 	//Algoritmos_Secuenciales_4 ()
 	//Algoritmos_Secuenciales_5()
 	//Algoritmos_Secuenciales_6()
