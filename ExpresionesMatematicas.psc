@@ -262,7 +262,7 @@ Algoritmo Expresiones_Matematicas
 	Expresiones_Matematicas_3()
 	Expresiones_Matematicas_4()
 	Expresiones_Matematicas_5() 
-    Expresiones_Matematicas_6() 
+        Expresiones_Matematicas_6() 
 	Expresiones_Matematicas_7()
 	Expresiones_Matematicas_8()
 	Expresiones_Matematicas_9()
